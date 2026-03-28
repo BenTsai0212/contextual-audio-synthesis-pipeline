@@ -1,0 +1,68 @@
+{
+  "lines": [
+    {
+      "line_id": "01_001",
+      "speaker": "Narrator",
+      "original_text": "It started as an academic exercise.",
+      "sensory_text": "The newspaper ad was three lines long. Five dollars a day. Jordan Hall basement. The young man circled it twice with a ballpoint pen, then folded the page in half.",
+      "ambient_tags": ["paper_rustle", "distant_campus_noise"],
+      "physical_actions": ["folding newspaper", "circling ad"],
+      "act_number": 1,
+      "emotion_tag": "professional_narration"
+    },
+    {
+      "line_id": "02_001",
+      "speaker": "Narrator",
+      "original_text": "By hour thirty-six, prisoner 8612 was screaming.",
+      "sensory_text": "The sound came through the cinderblock at 2 AM. Not words. Just sound. The guard at the door adjusted his mirrored sunglasses and looked at his clipboard.",
+      "ambient_tags": ["distant_screaming", "fluorescent_hum"],
+      "physical_actions": ["adjusting sunglasses", "checking clipboard"],
+      "act_number": 2,
+      "emotion_tag": "tension_suspense"
+    },
+    {
+      "line_id": "03_001",
+      "speaker": "Narrator",
+      "original_text": "Zimbardo watched through the observation window. He did not stop the experiment.",
+      "sensory_text": "Zimbardo pressed two fingers against the glass. On the other side, prisoner 8612 had stopped screaming. He was rocking. Zimbardo's notepad was open. He was writing.",
+      "ambient_tags": ["silence", "pen_scratching"],
+      "physical_actions": ["pressing fingers to glass", "writing notes"],
+      "act_number": 3,
+      "emotion_tag": "confrontation"
+    },
+    {
+      "line_id": "04_001",
+      "speaker": "Narrator",
+      "original_text": "Forty years later, tapes surfaced.",
+      "sensory_text": "The cassette tape sat in a manila envelope for four decades. When a researcher finally pressed play, Zimbardo's voice filled the room, instructing the guards: be tough. Create fear. We need the data.",
+      "ambient_tags": ["tape_hiss", "muffled_voice_recording"],
+      "physical_actions": ["pressing play button", "leaning in to listen"],
+      "act_number": 4,
+      "emotion_tag": "revelation"
+    },
+    {
+      "line_id": "05_001",
+      "speaker": "Narrator",
+      "original_text": "That even scientists are not immune to the roles they create.",
+      "sensory_text": "The paper was retracted in 2023. In his office, Zimbardo's framed copy of the original study still hangs on the wall. The nail holds.",
+      "ambient_tags": ["quiet_room", "distant_traffic"],
+      "physical_actions": [],
+      "act_number": 5,
+      "emotion_tag": "professional_narration"
+    }
+  ],
+  "sfx_markers": [
+    {
+      "position": "after_line_02_001",
+      "sound_type": "door_slam",
+      "volume_db": "-15db",
+      "duration_ms": 800
+    },
+    {
+      "position": "after_line_04_001",
+      "sound_type": "tape_click_stop",
+      "volume_db": "-10db",
+      "duration_ms": 500
+    }
+  ]
+}

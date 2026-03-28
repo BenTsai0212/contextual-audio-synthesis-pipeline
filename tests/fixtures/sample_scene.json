@@ -1,0 +1,22 @@
+[
+  {
+    "scene_id": "01",
+    "atmosphere": "Curiosity / Tension 3/10",
+    "act_number": 1,
+    "audio_layers": [
+      {
+        "speaker": "Narrator",
+        "text": "The newspaper ad was three lines long. Five dollars a day. Jordan Hall basement. The young man circled it twice with a ballpoint pen, then folded the page in half.",
+        "emotion_tag": "professional_narration",
+        "vibe_parameters": {
+          "voice_id": "Adam_Deep_Voice",
+          "stability": 0.80,
+          "similarity_boost": 0.85,
+          "style_exaggeration": 0.05,
+          "speed": 1.0
+        },
+        "post_pause": "0.8s"
+      }
+    ]
+  }
+]

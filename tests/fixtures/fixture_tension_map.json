@@ -1,0 +1,50 @@
+{
+  "overall_peak_minute": 18,
+  "acts": [
+    {
+      "act_number": 1,
+      "title": "The Basement",
+      "tension_arc": [
+        {"minute": 1, "tension_value": 3.0, "dominant_emotion": "curiosity", "narrative_note": "Open with an unsettling mundane detail."},
+        {"minute": 3, "tension_value": 4.5, "dominant_emotion": "unease", "narrative_note": "First sign something is wrong."}
+      ],
+      "script_draft": "Narrator: It started as an academic exercise. Twenty-four young men answered an ad in the Stanford student newspaper. Five dollars a day. A study about prison life. What could go wrong?"
+    },
+    {
+      "act_number": 2,
+      "title": "The Rules Begin to Bend",
+      "tension_arc": [
+        {"minute": 6, "tension_value": 5.5, "dominant_emotion": "dread", "narrative_note": "Escalation of guard behavior."},
+        {"minute": 9, "tension_value": 7.0, "dominant_emotion": "horror", "narrative_note": "First breakdown."}
+      ],
+      "script_draft": "Narrator: By hour thirty-six, prisoner 8612 was screaming. Not performing. Screaming. Zimbardo watched through the observation window. He did not stop the experiment."
+    },
+    {
+      "act_number": 3,
+      "title": "The Superintendent",
+      "tension_arc": [
+        {"minute": 12, "tension_value": 8.5, "dominant_emotion": "revelation", "narrative_note": "Zimbardo loses objectivity."},
+        {"minute": 15, "tension_value": 9.0, "dominant_emotion": "betrayal", "narrative_note": "The researcher becomes the warden."}
+      ],
+      "script_draft": "Narrator: The most dangerous thing Philip Zimbardo did was not design the experiment. It was forget he was running it."
+    },
+    {
+      "act_number": 4,
+      "title": "The Question That Ended It",
+      "tension_arc": [
+        {"minute": 18, "tension_value": 9.8, "dominant_emotion": "shock", "narrative_note": "Peak revelation — coached behavior."},
+        {"minute": 20, "tension_value": 8.0, "dominant_emotion": "disillusionment", "narrative_note": "The science crumbles."}
+      ],
+      "script_draft": "Narrator: Forty years later, tapes surfaced. The guards had been told to be tough. The spontaneous evil was scripted."
+    },
+    {
+      "act_number": 5,
+      "title": "What Remains",
+      "tension_arc": [
+        {"minute": 23, "tension_value": 5.0, "dominant_emotion": "unease", "narrative_note": "Uncomfortable resolution."}
+      ],
+      "script_draft": "Narrator: The experiment that claimed to prove anyone could become a monster proved something else entirely. That even scientists are not immune to the roles they create."
+    }
+  ],
+  "revision_notes": ""
+}

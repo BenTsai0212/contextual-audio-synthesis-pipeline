@@ -1,0 +1,14 @@
+{
+  "approved": true,
+  "quality_score": 8.2,
+  "overall_notes": "The script effectively uses physical displacement and environmental detail to convey psychological states without abstraction. The revelation beat in Act 4 lands with appropriate weight. Minor advisory: the final line could benefit from more ambiguity.",
+  "issues": [
+    {
+      "line_id": "05_001",
+      "issue_type": "too_direct",
+      "original_text": "The paper was retracted in 2023.",
+      "critique": "This is too clean an ending. Consider leaving the frame on the wall without the editorial 'The nail holds' — let the image speak.",
+      "suggested_rewrite": "The paper was retracted. In his office, Zimbardo's framed copy still hangs where he left it."
+    }
+  ]
+}
