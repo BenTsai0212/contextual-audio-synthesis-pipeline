@@ -1,0 +1,42 @@
+{
+  "payload_id": "fixture-denoiser-001",
+  "title": "The Stanford Prison Experiment",
+  "domain": "psychology",
+  "raw_summary": "In 1971, Stanford psychologist Philip Zimbardo conducted a simulated prison experiment that had to be terminated after six days when guards began psychologically abusing prisoners. The study raised profound questions about situational versus dispositional behavior.",
+  "word_count_original": 169,
+  "core_facts": [
+    {
+      "fact_id": "f01",
+      "statement": "The Stanford Prison Experiment began on August 14, 1971 in the basement of Jordan Hall.",
+      "emotional_weight": 0.3,
+      "pivot_point": false
+    },
+    {
+      "fact_id": "f02",
+      "statement": "24 male college students were randomly assigned roles as either guards or prisoners.",
+      "emotional_weight": 0.4,
+      "pivot_point": false
+    },
+    {
+      "fact_id": "f03",
+      "statement": "Within 36 hours, the first prisoner had a complete emotional breakdown and had to be released.",
+      "emotional_weight": 0.8,
+      "pivot_point": true
+    },
+    {
+      "fact_id": "f04",
+      "statement": "Guards invented increasingly degrading punishments not sanctioned by the researchers.",
+      "emotional_weight": 0.9,
+      "pivot_point": false
+    },
+    {
+      "fact_id": "f05",
+      "statement": "The experiment was terminated on day six due to severe psychological harm to participants.",
+      "emotional_weight": 1.0,
+      "pivot_point": true
+    }
+  ],
+  "metadata": {
+    "source": "test_fixture_denoiser"
+  }
+}

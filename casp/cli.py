@@ -147,10 +147,10 @@ def validate(
     if errors:
         console.print("[red]Validation failed:[/]")
         for err in errors:
-            console.print(f"  [red]✗[/] {err}")
+            console.print(f"  [red]FAIL[/] {err}")
         raise typer.Exit(1)
 
-    console.print(f"[green]✓ All {len(data)} scenes are valid.[/]")
+    console.print(f"[green]OK All {len(data)} scenes are valid.[/]")
 
 
 @app.command()
