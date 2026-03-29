@@ -13,7 +13,7 @@ FIXTURES = Path(__file__).parent.parent / "fixtures"
 
 
 def test_context_payload_loads_from_fixture():
-    data = json.loads((FIXTURES / "sample_context_payload.json").read_text())
+    data = json.loads((FIXTURES / "sample_context_payload.json").read_text(encoding="utf-8"))
     payload = ContextPayload.model_validate(data)
     assert payload.payload_id == "test-psychology-001"
     assert len(payload.core_facts) == 7
@@ -22,7 +22,7 @@ def test_context_payload_loads_from_fixture():
 
 
 def test_tension_map_loads_from_fixture():
-    data = json.loads((FIXTURES / "fixture_tension_map.json").read_text())
+    data = json.loads((FIXTURES / "fixture_tension_map.json").read_text(encoding="utf-8"))
     tm = TensionMap.model_validate(data)
     assert tm.overall_peak_minute == 18
     assert len(tm.acts) == 5
@@ -30,14 +30,14 @@ def test_tension_map_loads_from_fixture():
 
 
 def test_sensory_script_loads_from_fixture():
-    data = json.loads((FIXTURES / "fixture_sensory_script.json").read_text())
+    data = json.loads((FIXTURES / "fixture_sensory_script.json").read_text(encoding="utf-8"))
     ss = SensoryScript.model_validate(data)
     assert len(ss.lines) == 5
     assert len(ss.sfx_markers) == 2
 
 
 def test_subtext_review_loads_from_fixture():
-    data = json.loads((FIXTURES / "fixture_subtext_review.json").read_text())
+    data = json.loads((FIXTURES / "fixture_subtext_review.json").read_text(encoding="utf-8"))
     sr = SubtextReview.model_validate(data)
     assert sr.approved is True
     assert sr.quality_score == 8.2
@@ -45,7 +45,7 @@ def test_subtext_review_loads_from_fixture():
 
 
 def test_scene_loads_from_fixture():
-    data = json.loads((FIXTURES / "sample_scene.json").read_text())
+    data = json.loads((FIXTURES / "sample_scene.json").read_text(encoding="utf-8"))
     scenes = [Scene.model_validate(s) for s in data]
     assert len(scenes) == 1
     assert scenes[0].scene_id == "01"

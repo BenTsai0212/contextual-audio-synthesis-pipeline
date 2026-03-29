@@ -18,7 +18,7 @@ FIXTURES = Path(__file__).parent.parent / "fixtures"
 
 @pytest.fixture
 def sample_payload() -> ContextPayload:
-    data = json.loads((FIXTURES / "sample_context_payload.json").read_text())
+    data = json.loads((FIXTURES / "sample_context_payload.json").read_text(encoding="utf-8"))
     return ContextPayload.model_validate(data)
 
 

@@ -12,8 +12,8 @@ FIXTURES = Path(__file__).parent.parent / "fixtures"
 
 
 def _make_state(score: float, approved: bool) -> PipelineState:
-    sensory_data = json.loads((FIXTURES / "fixture_sensory_script.json").read_text())
-    review_data = json.loads((FIXTURES / "fixture_subtext_review.json").read_text())
+    sensory_data = json.loads((FIXTURES / "fixture_sensory_script.json").read_text(encoding="utf-8"))
+    review_data = json.loads((FIXTURES / "fixture_subtext_review.json").read_text(encoding="utf-8"))
     # Override score and approved for testing
     review_data["quality_score"] = score
     review_data["approved"] = approved
